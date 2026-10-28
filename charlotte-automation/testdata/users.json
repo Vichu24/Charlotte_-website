@@ -1,0 +1,47 @@
+{
+  "validNewStudentAdult": {
+    "dob": "01/15/2000",
+    "studentType": "newStudent"
+  },
+  "validNewStudentTeen": {
+    "dob": "06/10/2009",
+    "studentType": "newStudent"
+  },
+  "validTransferStudent": {
+    "dob": "03/22/2008",
+    "studentType": "transferStudent"
+  },
+  "validAdditionalLessons": {
+    "dob": "09/05/1998",
+    "studentType": "additionalLessons"
+  },
+  "validRoadTest": {
+    "dob": "11/30/2007",
+    "studentType": "roadTest"
+  },
+  "teenDob": {
+    "dob": "09/22/2010",
+    "studentType": "newStudent",
+    "note": "~16 years old at time of writing; used for TC_14 (Teen Packages routing). Confirm actual teen/adult age threshold with the client before relying on this."
+  },
+  "adultDob": {
+    "dob": "09/22/2001",
+    "studentType": "newStudent",
+    "note": "~25 years old at time of writing; used for TC_15 (Adult Packages routing)."
+  },
+  "underMinimumAge": {
+    "dob": "01/01/2018",
+    "studentType": "newStudent",
+    "expected": "should be blocked or show an age-eligibility message"
+  },
+  "invalidDobFormat": {
+    "dob": "31/02/2005",
+    "studentType": "newStudent",
+    "expected": "should show a validation error - not a real calendar date"
+  },
+  "emptyDob": {
+    "dob": "",
+    "studentType": "newStudent",
+    "expected": "Continue button should remain disabled"
+  }
+}

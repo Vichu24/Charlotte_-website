@@ -1,0 +1,15 @@
+node_modules/
+.env
+reports/html-report/
+reports/allure-results/
+reports/allure-report/
+test-results/
+logs/*.log*
+playwright-report/
+blob-report/
+*.zip
+.DS_Store
+npm-debug.log*
+.vscode/
+auth/*.json
+!auth/.gitkeep

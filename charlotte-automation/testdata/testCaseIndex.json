@@ -1,0 +1,2272 @@
+[
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_01",
+    "scenario": "Verify Landing Page loads with required fields",
+    "precondition": "User opens application",
+    "step": "Navigate to landing page",
+    "input": "N/A",
+    "expected": "Date of Birth field, Student Type radio buttons, and Continue button displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_02",
+    "scenario": "Verify Date of Birth field with calendar picker",
+    "precondition": "Landing page opened",
+    "step": "Click Date of Birth field",
+    "input": "N/A",
+    "expected": "Calendar date picker displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_03",
+    "scenario": "Verify Date of Birth selection functionality",
+    "precondition": "Landing page opened",
+    "step": "Select a date from calendar",
+    "input": "Valid DOB",
+    "expected": "Selected date displayed in DOB field"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_04",
+    "scenario": "Verify Date of Birth field is mandatory",
+    "precondition": "Landing page open",
+    "step": "Click Continue without selecting DOB",
+    "input": "Empty DOB",
+    "expected": "Validation message displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_05",
+    "scenario": "Verify validation message for missing DOB",
+    "precondition": "Landing page open",
+    "step": "Click Continue without DOB",
+    "input": "Empty DOB",
+    "expected": "“Please select the student’s Date of Birth.” displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_06",
+    "scenario": "Verify Student Type options displayed",
+    "precondition": "Landing page open",
+    "step": "Observe Student Type section",
+    "input": "N/A",
+    "expected": "Options displayed: New Student, Transfer Student, Additional Lessons"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_07",
+    "scenario": "Verify Student Type options displayed as radio buttons",
+    "precondition": "Landing page open",
+    "step": "Observe Student Type controls",
+    "input": "N/A",
+    "expected": "Student types displayed as radio buttons"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_08",
+    "scenario": "Verify Student Type selection functionality",
+    "precondition": "Landing page open",
+    "step": "Select any Student Type option",
+    "input": "Student type selected",
+    "expected": "Selected radio button highlighted"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_09",
+    "scenario": "Verify Student Type field is mandatory",
+    "precondition": "Landing page open",
+    "step": "Select DOB but not student type then click Continue",
+    "input": "Valid DOB",
+    "expected": "Validation message displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_10",
+    "scenario": "Verify validation message for missing Student Type",
+    "precondition": "Landing page open",
+    "step": "Click Continue without selecting student type",
+    "input": "No student type",
+    "expected": "“Please select a student type to continue.” displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_11",
+    "scenario": "Verify Continue button displayed",
+    "precondition": "Landing page open",
+    "step": "Observe bottom section of page",
+    "input": "N/A",
+    "expected": "Continue button displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_12",
+    "scenario": "Verify Continue button functionality",
+    "precondition": "Valid inputs entered",
+    "step": "Click Continue",
+    "input": "Valid DOB and Student Type",
+    "expected": "System processes request and proceeds"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_13",
+    "scenario": "Verify age calculation from DOB",
+    "precondition": "DOB selected",
+    "step": "Click Continue",
+    "input": "DOB value",
+    "expected": "System calculates student age correctly"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_14",
+    "scenario": "Verify Teen package routing",
+    "precondition": "Student age below teen threshold",
+    "step": "Enter teen DOB and click Continue",
+    "input": "Teen DOB",
+    "expected": "System redirects to Teen Packages"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_15",
+    "scenario": "Verify Adult package routing",
+    "precondition": "Student age adult threshold",
+    "step": "Enter adult DOB and click Continue",
+    "input": "Adult DOB",
+    "expected": "System redirects to Adult Packages"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_16",
+    "scenario": "Verify routing based on New Student type",
+    "precondition": "DOB entered",
+    "step": "Select New Student and click Continue",
+    "input": "New Student",
+    "expected": "Relevant new student packages displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_17",
+    "scenario": "Verify routing for Transfer Student",
+    "precondition": "DOB entered",
+    "step": "Select Transfer Student and click Continue",
+    "input": "Transfer Student",
+    "expected": "Transfer student packages displayed"
+  },
+  {
+    "tab": "TS-01 Landing Page",
+    "gid": "0",
+    "id": "TC_18",
+    "scenario": "Verify routing for Additional Lessons",
+    "precondition": "DOB entered",
+    "step": "Select Additional Lessons and click Continue",
+    "input": "Additional Lessons",
+    "expected": "Additional lessons packages including road test options displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_19",
+    "scenario": "Verify package listing page loads",
+    "precondition": "User completed previous step",
+    "step": "Navigate to package listing page",
+    "input": "N/A",
+    "expected": "Package listing page loads successfully"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_20",
+    "scenario": "Verify packages displayed in card format",
+    "precondition": "Package listing page open",
+    "step": "Observe package list",
+    "input": "N/A",
+    "expected": "Packages displayed in card layout"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_21",
+    "scenario": "Verify package name displayed",
+    "precondition": "Package listing available",
+    "step": "View package card",
+    "input": "N/A",
+    "expected": "Package name displayed correctly"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_22",
+    "scenario": "Verify package amount displayed",
+    "precondition": "Package listing available",
+    "step": "View package card",
+    "input": "N/A",
+    "expected": "Package amount displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_23",
+    "scenario": "Verify package description displayed",
+    "precondition": "Package listing available",
+    "step": "View package card",
+    "input": "N/A",
+    "expected": "Package description visible"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_24",
+    "scenario": "Verify included features list displayed",
+    "precondition": "Package listing available",
+    "step": "View package card",
+    "input": "N/A",
+    "expected": "Included features shown in list format"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_25",
+    "scenario": "Verify Enroll button displayed on package card",
+    "precondition": "Package listing available",
+    "step": "Observe package card",
+    "input": "N/A",
+    "expected": "Enroll button displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_26",
+    "scenario": "Verify Permit Required tag display",
+    "precondition": "Admin configured permit requirement",
+    "step": "View package card",
+    "input": "Permit required package",
+    "expected": "Permit Required tag displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_27",
+    "scenario": "Verify Permit tag hidden when not configured",
+    "precondition": "Permit tag not configured",
+    "step": "View package card",
+    "input": "Package without permit",
+    "expected": "Permit tag not displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_28",
+    "scenario": "Verify only active packages displayed",
+    "precondition": "Active and inactive packages exist",
+    "step": "Open package listing",
+    "input": "N/A",
+    "expected": "Only active packages shown"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_29",
+    "scenario": "Verify package filtering based on student age",
+    "precondition": "User DOB provided",
+    "step": "Navigate to packages",
+    "input": "Teen DOB",
+    "expected": "Teen packages displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_30",
+    "scenario": "Verify package filtering for adult student",
+    "precondition": "Adult DOB provided",
+    "step": "Navigate to packages",
+    "input": "Adult DOB",
+    "expected": "Adult packages displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_31",
+    "scenario": "Verify package filtering by student type",
+    "precondition": "Student type selected earlier",
+    "step": "Navigate to packages",
+    "input": "New student",
+    "expected": "Relevant packages displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_32",
+    "scenario": "Verify user can view other available packages",
+    "precondition": "Package list displayed",
+    "step": "Scroll package list",
+    "input": "N/A",
+    "expected": "User can view other available packages"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_33",
+    "scenario": "Verify system behavior when no packages available",
+    "precondition": "No active packages configured",
+    "step": "Open package listing",
+    "input": "N/A",
+    "expected": "Message “No packages are currently available.” displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_34",
+    "scenario": "Verify error handling when packages fail to load",
+    "precondition": "Server error occurs",
+    "step": "Open package listing",
+    "input": "API failure",
+    "expected": "Message “Unable to load packages. Please try again.” displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_35",
+    "scenario": "Verify multiple packages displayed",
+    "precondition": "Multiple packages exist",
+    "step": "Open package listing",
+    "input": "N/A",
+    "expected": "All available packages displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_36",
+    "scenario": "Verify Enroll button click",
+    "precondition": "Package card visible",
+    "step": "Click Enroll button",
+    "input": "Valid package",
+    "expected": "Enrollment flow initiated"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_37",
+    "scenario": "Verify navigation to upcoming classes page",
+    "precondition": "Package selected",
+    "step": "Click Enroll",
+    "input": "Valid package",
+    "expected": "User redirected to Upcoming Classes Page"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_38",
+    "scenario": "Verify package context passed",
+    "precondition": "Package selected",
+    "step": "Click Enroll",
+    "input": "Selected package",
+    "expected": "Selected package details passed to next page"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_39",
+    "scenario": "Verify user must select package to proceed",
+    "precondition": "Package page open",
+    "step": "Attempt to proceed without selecting",
+    "input": "No selection",
+    "expected": "User prevented from continuing"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_40",
+    "scenario": "Verify View Detail button displayed",
+    "precondition": "Package listing open",
+    "step": "Observe package card",
+    "input": "N/A",
+    "expected": "View Detail button displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_41",
+    "scenario": "Verify View Detail button functionality",
+    "precondition": "Package listing open",
+    "step": "Click View Detail",
+    "input": "Valid package",
+    "expected": "Package detail page opens"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_42",
+    "scenario": "Verify package title displayed in detail view",
+    "precondition": "Package detail page opened",
+    "step": "Observe header section",
+    "input": "N/A",
+    "expected": "Package title displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_43",
+    "scenario": "Verify package description in detail page",
+    "precondition": "Package detail page opened",
+    "step": "Observe package information",
+    "input": "N/A",
+    "expected": "Package description displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_44",
+    "scenario": "Verify package features list in detail page",
+    "precondition": "Package detail page opened",
+    "step": "Observe included features",
+    "input": "N/A",
+    "expected": "Included features shown in list format"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_45",
+    "scenario": "Verify Enroll button displayed in detail view",
+    "precondition": "Package detail page opened",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Enroll button visible"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_46",
+    "scenario": "Verify selected package context passed to detail view",
+    "precondition": "Package selected",
+    "step": "Click View Detail",
+    "input": "Valid package",
+    "expected": "Correct package information displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_47",
+    "scenario": "Verify Drive Only option displayed for eligible users",
+    "precondition": "User completed classroom lessons",
+    "step": "Open package details",
+    "input": "Eligible user",
+    "expected": "Drive Only option displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_48",
+    "scenario": "Verify Drive Only option hidden for ineligible users",
+    "precondition": "Classroom lessons not completed",
+    "step": "Open package details",
+    "input": "Ineligible user",
+    "expected": "Drive Only option hidden"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_49",
+    "scenario": "Verify DOB verification pop-up appears",
+    "precondition": "Package selected",
+    "step": "Click Enroll",
+    "input": "N/A",
+    "expected": "DOB verification pop-up displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_50",
+    "scenario": "Verify DOB field displayed in pop-up",
+    "precondition": "DOB pop-up opened",
+    "step": "Observe pop-up",
+    "input": "N/A",
+    "expected": "Date of Birth field displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_51",
+    "scenario": "Verify DOB field mandatory",
+    "precondition": "DOB pop-up opened",
+    "step": "Click Verify without DOB",
+    "input": "Empty DOB",
+    "expected": "Validation displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_52",
+    "scenario": "Verify eligibility verification functionality",
+    "precondition": "DOB entered",
+    "step": "Click Verify",
+    "input": "Valid DOB",
+    "expected": "System checks eligibility"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_53",
+    "scenario": "Verify eligible user redirect",
+    "precondition": "User meets eligibility criteria",
+    "step": "Click Verify",
+    "input": "Valid eligible DOB",
+    "expected": "User redirected to next step"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_54",
+    "scenario": "Verify ineligible user message",
+    "precondition": "User does not meet eligibility",
+    "step": "Click Verify",
+    "input": "Invalid DOB",
+    "expected": "Message “You are not eligible for this package.” displayed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_55",
+    "scenario": "Verify Cancel button functionality",
+    "precondition": "DOB pop-up opened",
+    "step": "Click Cancel",
+    "input": "N/A",
+    "expected": "Pop-up closed"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_56",
+    "scenario": "Verify pop-up closes correctly",
+    "precondition": "Cancel clicked",
+    "step": "Observe screen",
+    "input": "N/A",
+    "expected": "User returned to package listing"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_57",
+    "scenario": "Verify eligibility rule validation",
+    "precondition": "DOB entered",
+    "step": "Click Verify",
+    "input": "Boundary DOB",
+    "expected": "Eligibility validated based on rules"
+  },
+  {
+    "tab": "TS-02 Package Listing",
+    "gid": "1819675509",
+    "id": "TC_58",
+    "scenario": "Verify invalid DOB handling",
+    "precondition": "Pop-up opened",
+    "step": "Enter invalid DOB",
+    "input": "Invalid date",
+    "expected": "System rejects invalid input"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_74",
+    "scenario": "Verify Upcoming Classes page loads",
+    "precondition": "Package selected",
+    "step": "Navigate to Upcoming Classes page",
+    "input": "N/A",
+    "expected": "Upcoming classroom sessions displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_75",
+    "scenario": "Verify sessions displayed in card format",
+    "precondition": "Sessions available",
+    "step": "View class list",
+    "input": "N/A",
+    "expected": "Sessions displayed as cards"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_76",
+    "scenario": "Verify Start Date & Time displayed",
+    "precondition": "Sessions available",
+    "step": "View session card",
+    "input": "N/A",
+    "expected": "Start Date & Time displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_77",
+    "scenario": "Verify End Date & Time displayed",
+    "precondition": "Sessions available",
+    "step": "View session card",
+    "input": "N/A",
+    "expected": "End Date & Time displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_78",
+    "scenario": "Verify Course Type displayed",
+    "precondition": "Sessions available",
+    "step": "View session card",
+    "input": "N/A",
+    "expected": "Course type displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_79",
+    "scenario": "Verify Online Tag displayed for online sessions",
+    "precondition": "Online session configured",
+    "step": "View session card",
+    "input": "Online session",
+    "expected": "Online tag displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_80",
+    "scenario": "Verify Online Tag hidden for offline sessions",
+    "precondition": "Offline session configured",
+    "step": "View session card",
+    "input": "Offline session",
+    "expected": "Online tag not displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_81",
+    "scenario": "Verify View Schedule link displayed",
+    "precondition": "Sessions available",
+    "step": "View session card",
+    "input": "N/A",
+    "expected": "View Schedule link visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_82",
+    "scenario": "Verify Select button displayed",
+    "precondition": "Sessions available",
+    "step": "View session card",
+    "input": "N/A",
+    "expected": "Select button visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_83",
+    "scenario": "Verify class full indicator",
+    "precondition": "Session capacity reached",
+    "step": "View session card",
+    "input": "Full class",
+    "expected": "“This Class is Full” tag displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_84",
+    "scenario": "Verify Select button disabled for full class",
+    "precondition": "Session full",
+    "step": "View session card",
+    "input": "Full class",
+    "expected": "Select button disabled"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_85",
+    "scenario": "Verify Join Waitlist link displayed for full class",
+    "precondition": "Session full",
+    "step": "View session card",
+    "input": "Full class",
+    "expected": "Join Waitlist link visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_86",
+    "scenario": "Verify filtering by Lesson Type",
+    "precondition": "Filters enabled",
+    "step": "Apply lesson type filter",
+    "input": "Lesson type",
+    "expected": "Only matching sessions displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_87",
+    "scenario": "Verify filtering by Course",
+    "precondition": "Filters enabled",
+    "step": "Apply course filter",
+    "input": "Course name",
+    "expected": "Only matching sessions displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_88",
+    "scenario": "Verify filtering by Date",
+    "precondition": "Filters enabled",
+    "step": "Apply date filter",
+    "input": "Date",
+    "expected": "Only sessions for selected date displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_89",
+    "scenario": "Verify session selection functionality",
+    "precondition": "Sessions available",
+    "step": "Click Select",
+    "input": "Valid session",
+    "expected": "Session selected"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_90",
+    "scenario": "Verify navigation after selecting session",
+    "precondition": "Session selected",
+    "step": "Click Select",
+    "input": "Valid session",
+    "expected": "User navigated to Add-on Selection"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_91",
+    "scenario": "Verify validation when no class selected",
+    "precondition": "Sessions available",
+    "step": "Click Continue without selecting",
+    "input": "No session",
+    "expected": "“Please select a class to continue.” displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_92",
+    "scenario": "Verify message when no sessions available",
+    "precondition": "No future sessions",
+    "step": "Open page",
+    "input": "N/A",
+    "expected": "“No upcoming classes available.” displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_93",
+    "scenario": "Verify only future sessions displayed",
+    "precondition": "Past sessions exist",
+    "step": "Open page",
+    "input": "N/A",
+    "expected": "Only future sessions displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_94",
+    "scenario": "Verify Join Waitlist pop-up opens",
+    "precondition": "Session full",
+    "step": "Click Join Waitlist",
+    "input": "N/A",
+    "expected": "Waitlist pop-up displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_95",
+    "scenario": "Verify waitlist form fields displayed",
+    "precondition": "Pop-up opened",
+    "step": "Observe form",
+    "input": "N/A",
+    "expected": "First Name, Last Name, Birth Date, Phone, Email fields visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_96",
+    "scenario": "Verify Submit button displayed",
+    "precondition": "Pop-up opened",
+    "step": "Observe pop-up",
+    "input": "N/A",
+    "expected": "Submit button visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_97",
+    "scenario": "Verify Close button functionality",
+    "precondition": "Pop-up opened",
+    "step": "Click Close",
+    "input": "N/A",
+    "expected": "Pop-up closed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_98",
+    "scenario": "Verify all fields mandatory",
+    "precondition": "Pop-up opened",
+    "step": "Submit without filling fields",
+    "input": "Empty fields",
+    "expected": "“All fields are required.” message displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_99",
+    "scenario": "Verify email format validation",
+    "precondition": "Pop-up opened",
+    "step": "Enter invalid email",
+    "input": "Invalid email",
+    "expected": "“Invalid email format.” displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_100",
+    "scenario": "Verify phone number validation",
+    "precondition": "Pop-up opened",
+    "step": "Enter invalid phone",
+    "input": "Invalid phone",
+    "expected": "“Invalid phone number.” displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_101",
+    "scenario": "Verify successful waitlist submission",
+    "precondition": "Valid data entered",
+    "step": "Click Submit",
+    "input": "Valid data",
+    "expected": "Waitlist entry created"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_102",
+    "scenario": "Verify confirmation message",
+    "precondition": "Waitlist submission successful",
+    "step": "Submit form",
+    "input": "Valid data",
+    "expected": "“Successfully added to the waitlist for this class.” displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_103",
+    "scenario": "Verify waitlist is session specific",
+    "precondition": "Multiple sessions available",
+    "step": "Join waitlist for session",
+    "input": "Session ID",
+    "expected": "Waitlist linked to specific session"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_104",
+    "scenario": "Verify duplicate waitlist prevention by email",
+    "precondition": "Waitlist entry exists",
+    "step": "Submit again using same email",
+    "input": "Duplicate email",
+    "expected": "Duplicate entry blocked"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_105",
+    "scenario": "Verify duplicate waitlist prevention by phone",
+    "precondition": "Waitlist entry exists",
+    "step": "Submit again using same phone",
+    "input": "Duplicate phone",
+    "expected": "Duplicate entry blocked"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_106",
+    "scenario": "Verify notification trigger when seat available",
+    "precondition": "Waitlisted user exists",
+    "step": "Seat becomes available",
+    "input": "Seat released",
+    "expected": "Notification sent to waitlisted user"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_107",
+    "scenario": "Verify View Schedule pop-up opens",
+    "precondition": "Sessions available",
+    "step": "Click View Schedule",
+    "input": "N/A",
+    "expected": "Schedule pop-up displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_108",
+    "scenario": "Verify Online Tag displayed in schedule",
+    "precondition": "Online session",
+    "step": "Open schedule pop-up",
+    "input": "Online session",
+    "expected": "Online tag visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_109",
+    "scenario": "Verify Start Date displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe header",
+    "input": "N/A",
+    "expected": "Start date displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_110",
+    "scenario": "Verify End Date displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe header",
+    "input": "N/A",
+    "expected": "End date displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_111",
+    "scenario": "Verify Course Type displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe details",
+    "input": "N/A",
+    "expected": "Course type displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_112",
+    "scenario": "Verify Class ID displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe header",
+    "input": "N/A",
+    "expected": "Class ID displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_113",
+    "scenario": "Verify session table displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe schedule section",
+    "input": "N/A",
+    "expected": "Session table visible"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_114",
+    "scenario": "Verify session date displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe table",
+    "input": "N/A",
+    "expected": "Session date displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_115",
+    "scenario": "Verify session start time displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe table",
+    "input": "N/A",
+    "expected": "Session start time displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_116",
+    "scenario": "Verify session end time displayed",
+    "precondition": "Schedule pop-up open",
+    "step": "Observe table",
+    "input": "N/A",
+    "expected": "Session end time displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_117",
+    "scenario": "Verify close button functionality",
+    "precondition": "Schedule pop-up open",
+    "step": "Click Close",
+    "input": "N/A",
+    "expected": "Pop-up closes"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_118",
+    "scenario": "Verify Add-on page loads after session selection",
+    "precondition": "Session selected",
+    "step": "Navigate to Add-on page",
+    "input": "N/A",
+    "expected": "Add-ons displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_119",
+    "scenario": "Verify add-ons displayed in card format",
+    "precondition": "Add-ons available",
+    "step": "View add-ons",
+    "input": "N/A",
+    "expected": "Add-ons displayed as cards"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_120",
+    "scenario": "Verify add-on name displayed",
+    "precondition": "Add-ons available",
+    "step": "View card",
+    "input": "N/A",
+    "expected": "Add-on name displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_121",
+    "scenario": "Verify add-on price displayed",
+    "precondition": "Add-ons available",
+    "step": "View card",
+    "input": "N/A",
+    "expected": "Add-on price displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_122",
+    "scenario": "Verify checkbox displayed for add-on",
+    "precondition": "Add-ons available",
+    "step": "View card",
+    "input": "N/A",
+    "expected": "Checkbox displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_123",
+    "scenario": "Verify user can select multiple add-ons",
+    "precondition": "Add-ons available",
+    "step": "Select multiple options",
+    "input": "Multiple add-ons",
+    "expected": "Multiple add-ons selected"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_124",
+    "scenario": "Verify add-on selection optional",
+    "precondition": "Add-ons available",
+    "step": "Skip add-on selection",
+    "input": "No add-ons",
+    "expected": "User can proceed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_125",
+    "scenario": "Verify Continue button saves selected add-ons",
+    "precondition": "Add-ons selected",
+    "step": "Click Continue",
+    "input": "Selected add-ons",
+    "expected": "Add-ons saved"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_126",
+    "scenario": "Verify navigation to Student Information page",
+    "precondition": "Add-ons step completed",
+    "step": "Click Continue",
+    "input": "N/A",
+    "expected": "User redirected to Student Information page"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_127",
+    "scenario": "Verify add-ons filtered by selected package",
+    "precondition": "Package selected",
+    "step": "Open add-ons page",
+    "input": "Package ID",
+    "expected": "Only linked add-ons displayed"
+  },
+  {
+    "tab": "TS-03 Upcoming Classes / Add-ons",
+    "gid": "894510736",
+    "id": "TC_128",
+    "scenario": "Verify system skips step if no add-ons linked",
+    "precondition": "Package has no add-ons",
+    "step": "Continue enrollment",
+    "input": "N/A",
+    "expected": "System skips add-on page automatically"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_129",
+    "scenario": "Verify contract page loads",
+    "precondition": "Enrollment completed",
+    "step": "Navigate to Contract page",
+    "input": "N/A",
+    "expected": "Contract page loads with contract text, package details, add-ons and total amount"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_130",
+    "scenario": "Verify full contract text displayed",
+    "precondition": "Contract available",
+    "step": "Open contract page",
+    "input": "N/A",
+    "expected": "Full contract text including policies and terms displayed"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_131",
+    "scenario": "Verify contract content is read-only",
+    "precondition": "Contract page opened",
+    "step": "Attempt to edit contract text",
+    "input": "Keyboard input",
+    "expected": "Contract cannot be edited by user"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_132",
+    "scenario": "Verify selected package displayed",
+    "precondition": "Package selected during enrollment",
+    "step": "Open contract page",
+    "input": "Package data",
+    "expected": "Correct package details displayed"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_133",
+    "scenario": "Verify selected add-ons displayed",
+    "precondition": "Add-ons selected",
+    "step": "Open contract page",
+    "input": "Add-on list",
+    "expected": "Selected add-ons displayed correctly"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_134",
+    "scenario": "Verify total amount calculation",
+    "precondition": "Package and add-ons selected",
+    "step": "Navigate to contract page",
+    "input": "Price values",
+    "expected": "Total amount equals package price + add-ons"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_135",
+    "scenario": "Verify student signature field for adult",
+    "precondition": "Adult student profile",
+    "step": "Open contract page",
+    "input": "Adult student",
+    "expected": "Student signature field displayed"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_136",
+    "scenario": "Verify student and parent signatures for teen",
+    "precondition": "Student age under 18",
+    "step": "Open contract page",
+    "input": "Teen profile",
+    "expected": "Both student and parent signature fields displayed"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_137",
+    "scenario": "Validate student signature required",
+    "precondition": "Contract page open",
+    "step": "Click Pay Now without student signature",
+    "input": "Empty signature",
+    "expected": "Error message: Student signature is required"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_138",
+    "scenario": "Validate parent signature required",
+    "precondition": "Teen student",
+    "step": "Click Pay Now without parent signature",
+    "input": "Parent signature empty",
+    "expected": "Error message: Parent signature is required"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_139",
+    "scenario": "Verify Terms and Conditions checkbox",
+    "precondition": "Contract page open",
+    "step": "Observe Terms section",
+    "input": "N/A",
+    "expected": "Checkbox 'I've read and agree to the Terms and Conditions' displayed"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_140",
+    "scenario": "Validate Terms acceptance required",
+    "precondition": "Contract page open",
+    "step": "Click Pay Now without accepting Terms",
+    "input": "Checkbox unchecked",
+    "expected": "Error: You must agree to the Terms and Conditions"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_141",
+    "scenario": "Verify Pay Now button displayed",
+    "precondition": "Contract page loaded",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Pay Now button visible"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_142",
+    "scenario": "Verify successful payment navigation",
+    "precondition": "Signatures added and Terms accepted",
+    "step": "Click Pay Now",
+    "input": "Valid data",
+    "expected": "User redirected to payment page"
+  },
+  {
+    "tab": "TS-04 Contract",
+    "gid": "672171363",
+    "id": "TC_143",
+    "scenario": "Verify contract acceptance before payment",
+    "precondition": "Valid signatures and Terms accepted",
+    "step": "Click Pay Now",
+    "input": "Signed contract",
+    "expected": "Contract marked accepted and payment initiated"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_144",
+    "scenario": "Verify Student Information page loads",
+    "precondition": "Previous steps completed",
+    "step": "Navigate to Student Information page",
+    "input": "N/A",
+    "expected": "Student information form displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_145",
+    "scenario": "Verify DOB auto-filled from landing page",
+    "precondition": "DOB entered earlier",
+    "step": "Open student information page",
+    "input": "N/A",
+    "expected": "DOB field auto-populated"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_146",
+    "scenario": "Verify DOB field editable",
+    "precondition": "Student information page open",
+    "step": "Edit DOB field",
+    "input": "Valid DOB",
+    "expected": "DOB updated successfully"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_147",
+    "scenario": "Verify eligibility revalidation on DOB change",
+    "precondition": "DOB edited",
+    "step": "Change DOB from Teen to Adult range",
+    "input": "New DOB",
+    "expected": "Student type revalidated"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_148",
+    "scenario": "Verify correct form displayed for Teen",
+    "precondition": "DOB indicates Teen",
+    "step": "Open student information page",
+    "input": "Teen DOB",
+    "expected": "Teen form fields displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_149",
+    "scenario": "Verify correct form displayed for Adult",
+    "precondition": "DOB indicates Adult",
+    "step": "Open student information page",
+    "input": "Adult DOB",
+    "expected": "Adult form fields displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_150",
+    "scenario": "Verify Continue button displayed",
+    "precondition": "Page loaded",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Continue button visible"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_151",
+    "scenario": "Verify redirect to Contract page",
+    "precondition": "Valid form submitted",
+    "step": "Click Continue",
+    "input": "Valid form data",
+    "expected": "User redirected to Contract Page"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_152",
+    "scenario": "Verify First Name mandatory validation",
+    "precondition": "Teen form displayed",
+    "step": "Submit empty form",
+    "input": "Empty first name",
+    "expected": "“Please enter First Name.” displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_153",
+    "scenario": "Verify Last Name mandatory validation",
+    "precondition": "Teen form displayed",
+    "step": "Submit form",
+    "input": "Empty last name",
+    "expected": "“Please enter Last Name.” displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_154",
+    "scenario": "Verify DOB mandatory validation",
+    "precondition": "Teen form displayed",
+    "step": "Clear DOB field",
+    "input": "Empty DOB",
+    "expected": "“Please enter Date of Birth.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_155",
+    "scenario": "Verify gender selection",
+    "precondition": "Teen form displayed",
+    "step": "Select gender",
+    "input": "Male/Female",
+    "expected": "Gender saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_156",
+    "scenario": "Verify student phone entry",
+    "precondition": "Teen form displayed",
+    "step": "Enter phone",
+    "input": "Valid number",
+    "expected": "Phone saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_157",
+    "scenario": "Verify email format validation",
+    "precondition": "Teen form displayed",
+    "step": "Enter invalid email",
+    "input": "Invalid email",
+    "expected": "“Please enter a valid email address.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_158",
+    "scenario": "Verify parent name mandatory",
+    "precondition": "Teen form displayed",
+    "step": "Submit without parent name",
+    "input": "Empty parent name",
+    "expected": "“Parent/Guardian Name is required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_159",
+    "scenario": "Verify parent phone mandatory",
+    "precondition": "Teen form displayed",
+    "step": "Submit without phone",
+    "input": "Empty phone",
+    "expected": "“Parent/Guardian Contact Number is required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_160",
+    "scenario": "Verify parent phone numeric validation",
+    "precondition": "Teen form displayed",
+    "step": "Enter invalid phone",
+    "input": "Alphanumeric phone",
+    "expected": "Phone validation displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_161",
+    "scenario": "Verify parent email validation",
+    "precondition": "Teen form displayed",
+    "step": "Enter invalid email",
+    "input": "Invalid email",
+    "expected": "Email validation message"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_162",
+    "scenario": "Verify emergency name entry",
+    "precondition": "Teen form displayed",
+    "step": "Enter emergency name",
+    "input": "Valid name",
+    "expected": "Emergency contact saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_163",
+    "scenario": "Verify emergency relationship entry",
+    "precondition": "Teen form displayed",
+    "step": "Enter relationship",
+    "input": "Parent/Friend",
+    "expected": "Relationship saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_164",
+    "scenario": "Verify emergency phone entry",
+    "precondition": "Teen form displayed",
+    "step": "Enter phone",
+    "input": "Valid phone",
+    "expected": "Emergency phone saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_165",
+    "scenario": "Verify medical condition mandatory",
+    "precondition": "Teen form displayed",
+    "step": "Leave medical field blank",
+    "input": "Empty field",
+    "expected": "“Please enter medical information or type ‘None’.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_166",
+    "scenario": "Verify high school dropdown",
+    "precondition": "Teen form displayed",
+    "step": "Open dropdown",
+    "input": "Select school",
+    "expected": "School saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_167",
+    "scenario": "Verify glasses/contacts dropdown",
+    "precondition": "Teen form displayed",
+    "step": "Select option",
+    "input": "Glasses",
+    "expected": "Selection saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_168",
+    "scenario": "Verify referral source dropdown",
+    "precondition": "Teen form displayed",
+    "step": "Select option",
+    "input": "Referral option",
+    "expected": "Saved successfully"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_169",
+    "scenario": "Verify adult first name mandatory",
+    "precondition": "Adult form displayed",
+    "step": "Submit form",
+    "input": "Empty first name",
+    "expected": "Validation message shown"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_170",
+    "scenario": "Verify adult last name mandatory",
+    "precondition": "Adult form displayed",
+    "step": "Submit form",
+    "input": "Empty last name",
+    "expected": "Validation message shown"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_171",
+    "scenario": "Verify adult gender selection",
+    "precondition": "Adult form displayed",
+    "step": "Select gender",
+    "input": "Male/Female",
+    "expected": "Gender saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_172",
+    "scenario": "Verify permit question displayed",
+    "precondition": "Adult form displayed",
+    "step": "Observe form",
+    "input": "N/A",
+    "expected": "Permit question visible"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_173",
+    "scenario": "Verify permit fields appear when Yes selected",
+    "precondition": "Permit = Yes",
+    "step": "Select Yes",
+    "input": "Yes",
+    "expected": "Permit fields displayed"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_174",
+    "scenario": "Verify permit number mandatory",
+    "precondition": "Permit = Yes",
+    "step": "Submit without permit number",
+    "input": "Empty permit number",
+    "expected": "“Permit details are required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_175",
+    "scenario": "Verify permit issued date entry",
+    "precondition": "Permit = Yes",
+    "step": "Enter issued date",
+    "input": "Valid date",
+    "expected": "Date accepted"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_176",
+    "scenario": "Verify permit expiry future date validation",
+    "precondition": "Permit = Yes",
+    "step": "Enter past date",
+    "input": "Past expiry date",
+    "expected": "“Permit expiry date must be a future date.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_177",
+    "scenario": "Verify permit upload functionality",
+    "precondition": "Permit = Yes",
+    "step": "Upload file",
+    "input": "Valid JPG",
+    "expected": "File uploaded"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_178",
+    "scenario": "Verify permit file format validation",
+    "precondition": "Permit = Yes",
+    "step": "Upload unsupported file",
+    "input": ".exe",
+    "expected": "Upload rejected"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_179",
+    "scenario": "Verify permit file size validation",
+    "precondition": "Permit = Yes",
+    "step": "Upload file >10MB",
+    "input": "Large file",
+    "expected": "“Permit file size must not exceed 10 mb.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_180",
+    "scenario": "Verify phone mandatory validation",
+    "precondition": "Adult form displayed",
+    "step": "Submit without phone",
+    "input": "Empty phone",
+    "expected": "“Phone is required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_181",
+    "scenario": "Verify email mandatory validation",
+    "precondition": "Adult form displayed",
+    "step": "Submit without email",
+    "input": "Empty email",
+    "expected": "“Email is required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_182",
+    "scenario": "Verify address mandatory validation",
+    "precondition": "Adult form displayed",
+    "step": "Submit without address",
+    "input": "Empty address",
+    "expected": "“Address is required.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_183",
+    "scenario": "Verify city entry",
+    "precondition": "Adult form displayed",
+    "step": "Enter city",
+    "input": "Valid city",
+    "expected": "City saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_184",
+    "scenario": "Verify state dropdown",
+    "precondition": "Adult form displayed",
+    "step": "Select state",
+    "input": "Valid state",
+    "expected": "State saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_185",
+    "scenario": "Verify zip code entry",
+    "precondition": "Adult form displayed",
+    "step": "Enter zip code",
+    "input": "Valid zip",
+    "expected": "Zip saved"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_186",
+    "scenario": "Verify Terms checkbox displayed",
+    "precondition": "Student form displayed",
+    "step": "Observe terms section",
+    "input": "N/A",
+    "expected": "Checkbox visible"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_187",
+    "scenario": "Verify Terms hyperlink",
+    "precondition": "Terms configured",
+    "step": "Click link",
+    "input": "Terms link",
+    "expected": "Terms page opens"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_188",
+    "scenario": "Verify terms mandatory validation",
+    "precondition": "Form completed",
+    "step": "Submit without checking box",
+    "input": "Checkbox unchecked",
+    "expected": "“You must agree to the Terms and Conditions to continue.”"
+  },
+  {
+    "tab": "TS-05 Student Information",
+    "gid": "1690710508",
+    "id": "TC_189",
+    "scenario": "Verify terms acceptance",
+    "precondition": "Terms checked",
+    "step": "Click Continue",
+    "input": "Checkbox checked",
+    "expected": "Form submitted successfully"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_171",
+    "scenario": "Verify Payment Page loads",
+    "precondition": "User completed contract page",
+    "step": "Navigate to Payment Page",
+    "input": "N/A",
+    "expected": "Payment Page loads successfully"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_172",
+    "scenario": "Verify payment type options displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe payment type section",
+    "input": "N/A",
+    "expected": "Pay in Full and Pay Deposit options displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_173",
+    "scenario": "Verify default payment type state",
+    "precondition": "Payment page opened",
+    "step": "Observe payment type radio buttons",
+    "input": "N/A",
+    "expected": "No option pre-selected"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_174",
+    "scenario": "Verify Back button functionality",
+    "precondition": "Payment page opened",
+    "step": "Click Back button",
+    "input": "N/A",
+    "expected": "User navigated to Contract Page"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_175",
+    "scenario": "Verify Pay button displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Pay button visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_176",
+    "scenario": "Verify Pay in Full selection",
+    "precondition": "Payment page opened",
+    "step": "Select Pay in Full",
+    "input": "Pay in Full",
+    "expected": "Full payment selected"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_177",
+    "scenario": "Verify Pay Deposit selection",
+    "precondition": "Payment page opened",
+    "step": "Select Pay Deposit",
+    "input": "Pay Deposit",
+    "expected": "Deposit payment selected"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_178",
+    "scenario": "Verify payment summary updates for full payment",
+    "precondition": "Pay in Full selected",
+    "step": "Observe payment summary",
+    "input": "N/A",
+    "expected": "Full package amount displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_179",
+    "scenario": "Verify payment summary updates for deposit",
+    "precondition": "Pay Deposit selected",
+    "step": "Observe payment summary",
+    "input": "N/A",
+    "expected": "Deposit amount displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_180",
+    "scenario": "Verify remaining balance calculation",
+    "precondition": "Pay Deposit selected",
+    "step": "Observe summary",
+    "input": "Deposit selected",
+    "expected": "Remaining balance displayed correctly"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_181",
+    "scenario": "Verify deposit amount fetched from admin config",
+    "precondition": "Deposit configured in admin",
+    "step": "Select Pay Deposit",
+    "input": "N/A",
+    "expected": "Correct deposit amount shown"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_182",
+    "scenario": "Verify package name displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe summary",
+    "input": "N/A",
+    "expected": "Package name displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_183",
+    "scenario": "Verify package details displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe summary",
+    "input": "N/A",
+    "expected": "Package details displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_184",
+    "scenario": "Verify add-ons displayed",
+    "precondition": "Add-ons selected earlier",
+    "step": "Observe summary",
+    "input": "Add-ons selected",
+    "expected": "Add-ons listed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_185",
+    "scenario": "Verify total amount calculation",
+    "precondition": "Package + add-ons selected",
+    "step": "Observe summary",
+    "input": "N/A",
+    "expected": "Total amount calculated correctly"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_186",
+    "scenario": "Verify coupon field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe summary",
+    "input": "N/A",
+    "expected": "Apply coupon field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_187",
+    "scenario": "Verify Use Same Address checkbox displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe billing section",
+    "input": "N/A",
+    "expected": "Checkbox visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_188",
+    "scenario": "Verify address auto-fill when checkbox selected",
+    "precondition": "Address exists in student info",
+    "step": "Select checkbox",
+    "input": "Use Same Address",
+    "expected": "Billing address auto-filled"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_189",
+    "scenario": "Verify manual address entry when unchecked",
+    "precondition": "Checkbox unchecked",
+    "step": "Enter address",
+    "input": "Address details",
+    "expected": "Address fields editable"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_190",
+    "scenario": "Verify address fields required when unchecked",
+    "precondition": "Checkbox unchecked",
+    "step": "Submit without address",
+    "input": "Empty fields",
+    "expected": "Address validation shown"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_191",
+    "scenario": "Verify card number field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe card section",
+    "input": "N/A",
+    "expected": "Card number field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_192",
+    "scenario": "Verify expiry month field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe card section",
+    "input": "N/A",
+    "expected": "Expiry month field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_193",
+    "scenario": "Verify expiry year field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe card section",
+    "input": "N/A",
+    "expected": "Expiry year field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_194",
+    "scenario": "Verify CVV field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe card section",
+    "input": "N/A",
+    "expected": "CVV field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_195",
+    "scenario": "Verify cardholder first name field",
+    "precondition": "Payment page opened",
+    "step": "Observe form",
+    "input": "N/A",
+    "expected": "First name field displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_196",
+    "scenario": "Verify cardholder last name field",
+    "precondition": "Payment page opened",
+    "step": "Observe form",
+    "input": "N/A",
+    "expected": "Last name field displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_197",
+    "scenario": "Verify card zip code field displayed",
+    "precondition": "Payment page opened",
+    "step": "Observe form",
+    "input": "N/A",
+    "expected": "Zip code field visible"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_198",
+    "scenario": "Verify validation when payment type not selected",
+    "precondition": "Payment page opened",
+    "step": "Click Pay",
+    "input": "No selection",
+    "expected": "“Please select a payment type.” displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_199",
+    "scenario": "Verify card number required validation",
+    "precondition": "Payment type selected",
+    "step": "Click Pay",
+    "input": "Empty card number",
+    "expected": "“Please enter card number.” displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_200",
+    "scenario": "Verify invalid card number validation",
+    "precondition": "Payment type selected",
+    "step": "Enter invalid card number",
+    "input": "Invalid card",
+    "expected": "“Please enter a valid card number.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_201",
+    "scenario": "Verify expiry date validation",
+    "precondition": "Payment type selected",
+    "step": "Leave expiry blank",
+    "input": "Empty expiry",
+    "expected": "“Please enter card expiry date.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_202",
+    "scenario": "Verify CVV required validation",
+    "precondition": "Payment type selected",
+    "step": "Leave CVV empty",
+    "input": "Empty CVV",
+    "expected": "“Please enter CVV.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_203",
+    "scenario": "Verify cardholder name validation",
+    "precondition": "Payment type selected",
+    "step": "Leave name empty",
+    "input": "Empty name",
+    "expected": "“Please enter cardholder name.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_204",
+    "scenario": "Verify billing address validation",
+    "precondition": "Address required",
+    "step": "Submit without address",
+    "input": "Empty address",
+    "expected": "“Please enter billing address details.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_205",
+    "scenario": "Verify payment confirmation prompt",
+    "precondition": "Valid payment details entered",
+    "step": "Click Pay",
+    "input": "Valid details",
+    "expected": "Confirmation message displayed"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_206",
+    "scenario": "Verify successful payment flow",
+    "precondition": "Valid payment processed",
+    "step": "Click Pay",
+    "input": "Valid card",
+    "expected": "User redirected to Payment Success Page"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_207",
+    "scenario": "Verify payment failure handling",
+    "precondition": "Payment gateway error",
+    "step": "Click Pay",
+    "input": "Invalid card",
+    "expected": "“Payment failed. Please check your card details and try again.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_208",
+    "scenario": "Verify network failure handling",
+    "precondition": "Network disconnected",
+    "step": "Click Pay",
+    "input": "Valid card",
+    "expected": "“Unable to process payment. Please check your internet connection.”"
+  },
+  {
+    "tab": "TS-06 Payment",
+    "gid": "85546436",
+    "id": "TC_209",
+    "scenario": "Verify duplicate payment prevention",
+    "precondition": "Payment already processing",
+    "step": "Click Pay repeatedly",
+    "input": "Multiple clicks",
+    "expected": "“Payment is already in progress. Please wait.”"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_210",
+    "scenario": "Verify navigation to Payment Success Page",
+    "precondition": "Payment completed successfully",
+    "step": "Complete payment",
+    "input": "Valid payment",
+    "expected": "User redirected to Payment Success Page"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_211",
+    "scenario": "Verify success confirmation message displayed",
+    "precondition": "Payment success page opened",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Message “Payment Successful. Your enrollment has been confirmed.” displayed"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_212",
+    "scenario": "Verify package name displayed",
+    "precondition": "Payment success page opened",
+    "step": "Observe payment summary",
+    "input": "N/A",
+    "expected": "Correct package name displayed"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_213",
+    "scenario": "Verify amount paid displayed",
+    "precondition": "Payment success page opened",
+    "step": "Observe payment summary",
+    "input": "N/A",
+    "expected": "Amount paid displayed correctly"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_214",
+    "scenario": "Verify transaction reference displayed",
+    "precondition": "Payment processed",
+    "step": "Observe payment details",
+    "input": "Transaction available",
+    "expected": "Transaction reference displayed"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_215",
+    "scenario": "Verify Home button displayed",
+    "precondition": "Success page opened",
+    "step": "Observe page",
+    "input": "N/A",
+    "expected": "Home button visible"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_216",
+    "scenario": "Verify Home button navigation",
+    "precondition": "Success page opened",
+    "step": "Click Home button",
+    "input": "N/A",
+    "expected": "User redirected to Landing Page"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_217",
+    "scenario": "Verify back button browser behavior",
+    "precondition": "Success page opened",
+    "step": "Click browser back",
+    "input": "N/A",
+    "expected": "User redirected safely without duplicating payment"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_218",
+    "scenario": "Verify page reload behavior",
+    "precondition": "Success page opened",
+    "step": "Refresh page",
+    "input": "Page reload",
+    "expected": "Payment not duplicated"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_219",
+    "scenario": "Verify enrollment record created",
+    "precondition": "Payment successful",
+    "step": "Check backend enrollment record",
+    "input": "Valid payment",
+    "expected": "Enrollment record created"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_220",
+    "scenario": "Verify payment details stored",
+    "precondition": "Payment successful",
+    "step": "Check system database",
+    "input": "Valid payment",
+    "expected": "Payment details stored"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_221",
+    "scenario": "Verify transaction ID tracking",
+    "precondition": "Payment processed",
+    "step": "Check audit logs",
+    "input": "Valid transaction",
+    "expected": "Transaction ID recorded"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_222",
+    "scenario": "Verify confirmation email triggered",
+    "precondition": "Payment successful",
+    "step": "Check email inbox",
+    "input": "Valid payment",
+    "expected": "Confirmation email received"
+  },
+  {
+    "tab": "TS-07 Payment Success",
+    "gid": "1334202520",
+    "id": "TC_223",
+    "scenario": "Verify confirmation SMS triggered",
+    "precondition": "Payment successful",
+    "step": "Check phone messages",
+    "input": "Valid payment",
+    "expected": "Confirmation SMS received"
+  }
+]

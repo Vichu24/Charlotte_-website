@@ -1,0 +1,30 @@
+{
+  "validSubmission": {
+    "firstName": "QA",
+    "lastName": "Automation",
+    "email": "qa.automation@example.com",
+    "phone": "7045551234",
+    "message": "This is an automated test submission from the Playwright regression suite. Please disregard."
+  },
+  "missingRequiredFields": {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "message": ""
+  },
+  "invalidEmailFormat": {
+    "firstName": "QA",
+    "lastName": "Automation",
+    "email": "not-an-email",
+    "phone": "7045551234",
+    "message": "Testing invalid email format validation."
+  },
+  "invalidPhoneFormat": {
+    "firstName": "QA",
+    "lastName": "Automation",
+    "email": "qa.automation@example.com",
+    "phone": "abc123",
+    "message": "Testing invalid phone format validation."
+  }
+}

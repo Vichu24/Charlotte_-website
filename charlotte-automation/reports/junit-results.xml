@@ -1,0 +1,918 @@
+<testsuites id="" name="" tests="225" failures="0" skipped="225" errors="0" time="0.299554">
+<testsuite name="regression\contract.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Enrollment entry flow @regression @sheet › Enrollment start heading and guidance are displayed" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Student Date of Birth selector is displayed" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Preferred location selector is optional" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › All current student types are available" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Continue is disabled until required enrollment choices are made" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Packages are not shown before enrollment choices are made" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Terms of Service is available from the footer" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enrollment entry flow @regression @sheet › Privacy Policy is available from the footer" classname="regression\contract.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\landingPageSheetCases.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="18" failures="0" skipped="18" time="0" errors="0">
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_01 - Landing page loads with DOB field, Student Type radios, and Continue button" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_02 - Clicking Date of Birth field displays the calendar date picker" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_03 - Selecting a date from the calendar populates the DOB field" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_04 - Continue remains disabled without DOB" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_05 - Continue remains disabled when DOB is missing" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_06 - Student Type options displayed: New Student, Transfer Student, Additional Lessons" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_07 - Student Type options are rendered as radio buttons" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_08 - Selecting a Student Type highlights/checks that option" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_09 - Continue remains disabled when Student Type is omitted" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_10 - Continue remains disabled when Student Type is missing" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_11 - Continue button is displayed" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_12 - Continue with valid DOB and Student Type processes and proceeds" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_13 - System calculates student age correctly from DOB" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_14 - Teen DOB routes to Teen Packages" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_15 - Adult DOB routes to Adult Packages" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_16 - New Student selection displays relevant new-student packages" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_17 - Transfer Student selection displays transfer-student packages" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Landing page - DOB &amp; Student Type widget @regression @sheet › TC_18 - Additional Lessons selection displays packages including road test options" classname="regression\landingPageSheetCases.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\navigation.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Site navigation @regression › &quot;Home&quot; (/) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;Driver Training&quot; (/driver-training) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;Simulators&quot; (/simulators) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;About - Our Story&quot; (/about/our-story) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;About - Our Team&quot; (/about/our-team) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;About - Testimonials&quot; (/about/testimonials) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;About - FAQs&quot; (/about/faqs) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;Contact Us&quot; (/contact) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;Terms of Service&quot; (/terms) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › &quot;Privacy Policy&quot; (/privacy) loads without error" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Site navigation @regression › nav bar is consistent across pages" classname="regression\navigation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\packageListing.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="40" failures="0" skipped="40" time="0" errors="0">
+<testcase name="Package Listing @regression @sheet › TC_19 - Package listing page loads" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_20 - Packages displayed in card format" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_21 - Package name displayed on card" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_22 - Package amount displayed on card" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_23 - Package description displayed on card" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_24 - Included features list displayed" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_25 - Enroll button displayed on package card" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_26 - Permit Required tag displayed when configured" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_27 - Permit tag hidden when not configured" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_28 - Every displayed package has working actions" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_29 - Teen DOB filters to Teen packages" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_30 - Adult DOB filters to Adult packages" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_31 - Packages filtered by student type (New Student)" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_32 - User can scroll to view other available packages" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_33 - Empty-state message is hidden when packages are available" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_34 - Package page remains usable after a failed filter refresh" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_35 - Multiple packages all displayed" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_36 - Clicking Enroll initiates the enrollment flow" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_37 - Enroll navigates to Upcoming Classes" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_38 - Selected package context passed forward" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_39 - User cannot continue before making enrollment choices" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_40 - View Detail button displayed on package card" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_41 - View Detail opens the package detail page" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_42 - Package title displayed in detail view" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_43 - Package description shown in detail page" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_44 - Package features list shown in detail page" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_45 - Enroll button displayed in detail view" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_46 - Selected package context passed to detail view" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_47 - Permit requirement is retained on package detail" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Package Listing @regression @sheet › TC_48 - Standard package detail does not show Drive Only" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_49 - Enroll opens the Upcoming Classes step" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_50 - Available classes are displayed" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_51 - Class selection controls reflect session availability" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_52 - Online class filter is displayed" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_53 - Class date filter is displayed" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_54 - User may continue without selecting a class" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_55 - Enrollment proceeds without an additional DOB dialog" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_56 - Current enrollment step includes class scheduling guidance" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_57 - Class session cards show their selection controls" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enroll navigation @regression @sheet › TC_58 - Enrollment is not blocked by a second DOB check" classname="regression\packageListing.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\payment.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="39" failures="0" skipped="39" time="0" errors="0">
+<testcase name="Payment Page @regression @sheet › Payment - TC_171 - Payment Page loads" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_172 - Pay in Full and Pay Deposit options displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_173 - Pay in Full is selected by default" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_174 - Payment step is shown without a legacy back button" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_175 - Pay button displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_176 - Pay in Full selection works" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_177 - Pay Deposit selection works" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_178 - Summary shows full package amount when Pay in Full selected" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_179 - Summary shows deposit amount when Pay Deposit selected" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_180 - Remaining balance calculated correctly" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_181 - Deposit amount fetched from admin config" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_182 - Package name displayed in summary" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_183 - Package details displayed in summary" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_184 - No add-ons appear when none were selected" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_185 - Total amount calculated correctly" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_186 - Coupon field is absent on the current payment form" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_187 - &quot;Use Same Address&quot; checkbox displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_188 - Billing address auto-fills from student info when checked" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_189 - Address fields editable when unchecked" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_190 - Address required when unchecked and submitted empty" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_191 - Card number field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_192 - Expiry month field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_193 - Expiry year field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_194 - CVV field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_195 - Cardholder first name field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_196 - Cardholder last name field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_197 - Card zip code field displayed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_198 - Pay in Full is selected when no payment type is changed" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_199 - Card number required validation" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_200 - Invalid card number rejected" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_201 - Expiry date required validation" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_202 - CVV required validation" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_203 - Cardholder names are optional on the current form" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_204 - Billing address required validation" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_205 - Confirmation prompt shown with valid details" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_206 - Successful payment redirects to Payment Success page" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_207 - Payment gateway failure shows error message" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_208 - Network failure shows connection error message" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Payment Page @regression @sheet › Payment - TC_209 - Repeated Pay clicks open one confirmation prompt" classname="regression\payment.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\studentInformation.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="46" failures="0" skipped="46" time="0" errors="0">
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_144 - Student Information page loads" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_145 - DOB auto-filled from landing page" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_146 - DOB field remains locked after package selection" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_147 - Selected teen DOB displays teen-specific fields" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_148 - Teen form fields displayed for Teen DOB" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_149 - Adult form fields displayed for Adult DOB" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_150 - Continue button displayed" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student Information - shared behaviour @regression @sheet › TC_151 - Valid form submission redirects to digital signature" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_152 - First Name mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_153 - Last Name mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_154 - DOB mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_155 - Gender selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_156 - Student phone entry saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen Student - Personal Information @regression @sheet › TC_157 - Email format validated" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Parent/Guardian Information @regression @sheet › TC_158 - Parent name mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Parent/Guardian Information @regression @sheet › TC_159 - Parent phone mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Parent/Guardian Information @regression @sheet › TC_160 - Parent phone numeric validation" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Parent/Guardian Information @regression @sheet › TC_161 - Parent email validation" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Emergency Details @regression @sheet › TC_162 - Emergency contact name saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Emergency Details @regression @sheet › TC_163 - Emergency relationship saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Emergency Details @regression @sheet › TC_164 - Emergency phone saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Additional &amp; Other Details @regression @sheet › TC_165 - Medical condition field mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Additional &amp; Other Details @regression @sheet › TC_166 - High school dropdown selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Additional &amp; Other Details @regression @sheet › TC_167 - Glasses/contacts dropdown selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Teen - Additional &amp; Other Details @regression @sheet › TC_168 - Referral source dropdown selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult Student - Personal Information @regression @sheet › TC_169 - Adult first name mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult Student - Personal Information @regression @sheet › TC_170 - Adult last name mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult Student - Personal Information @regression @sheet › TC_171 - Adult gender selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_172 - Permit question displayed" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_173 - Permit fields appear when Yes selected" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_174 - Permit number mandatory when permit = Yes" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_175 - Permit issued date accepted" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_176 - Permit expiry picker prevents selecting an expired year" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_177 - Permit upload accepts a valid JPG" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_178 - Permit upload rejects unsupported file formats" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Permit Information @regression @sheet › TC_179 - Permit file size validation (&gt;10MB rejected)" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_180 - Phone mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_181 - Email mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_182 - Address mandatory" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_183 - City entry saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_184 - State dropdown selection saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Adult - Contact Information @regression @sheet › TC_185 - Zip code entry saved" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Terms &amp; Conditions Section @regression @sheet › TC_186 - Terms checkbox displayed" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Terms &amp; Conditions Section @regression @sheet › TC_187 - Terms hyperlink opens Terms page" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Terms &amp; Conditions Section @regression @sheet › TC_188 - Terms acceptance required to continue" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Terms &amp; Conditions Section @regression @sheet › TC_189 - Form submits successfully once Terms accepted" classname="regression\studentInformation.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\studentSelector.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Student package selector @regression › Continue is disabled until DOB and student type are both provided" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › selecting &quot;New Student, adult DOB&quot; with a valid DOB unlocks packages" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › selecting &quot;New Student, teen DOB&quot; with a valid DOB unlocks packages" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › selecting &quot;Transfer Student&quot; with a valid DOB unlocks packages" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › selecting &quot;Additional Lessons&quot; with a valid DOB unlocks packages" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › selecting &quot;Road Test&quot; with a valid DOB unlocks packages" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › students below minimum age are blocked from package selection" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Student package selector @regression › empty DOB keeps Continue disabled regardless of student type" classname="regression\studentSelector.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="regression\upcomingClasses.spec.js" timestamp="2026-10-28T13:34:51.625Z" hostname="chromium" tests="55" failures="0" skipped="55" time="0" errors="0">
+<testcase name="Upcoming Classes @regression @sheet › TC_74 - Upcoming Classes page loads" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_75 - Sessions displayed in card format" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_76 - Start Date &amp; Time displayed on session card" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_77 - End Date &amp; Time displayed on session card" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_78 - Course Type displayed on session card" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_79 - Online class tag is not shown on in-person sessions" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_80 - Online tag hidden for offline sessions" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_81 - View Schedule link displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_82 - Select button displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_83 - Full-class availability is reflected in the current listing" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_84 - Select is disabled for full classes when present" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_85 - Join Waitlist is offered only for eligible full classes" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_86 - Lesson type filter is not exposed on the current class listing" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_87 - Course filter is not exposed on the current class listing" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_88 - Filtering by Date narrows the list" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_89 - Selecting an available session opens the next step" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_90 - Selecting a session opens Add-on Selection" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_91 - Continue without selecting a class proceeds to student information" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_92 - Empty-state message is hidden when upcoming classes exist" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upcoming Classes @regression @sheet › TC_93 - Only future sessions are displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_94 - Join Waitlist pop-up opens" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_95 - Waitlist form fields displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_96 - Submit button displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_97 - Close button closes the pop-up" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_98 - All fields are mandatory" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_99 - Invalid email format is rejected" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_100 - Invalid phone number is rejected" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_101 - Successful waitlist submission with valid data" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_102 - Joined status is shown after successful submission" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_103 - Waitlist form is opened from the selected full session" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_104 - Repeat submission is blocked while the request is pending" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_105 - Waitlist form retains the entered phone number" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Join Waitlist when offered @regression @sheet › TC_106 - Waitlist submission confirms the user was added" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_107 - View Schedule pop-up opens" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_108 - In-Person tag visible in schedule pop-up" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_109 - Start date displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_110 - End date displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_111 - Course type displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_112 - Class ID displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_113 - Session table displayed" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_114 - Session date displayed in table" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_115 - Session start time displayed in table" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_116 - Session end time displayed in table" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="View Classroom Schedule Details @regression @sheet › TC_117 - Close button closes the pop-up" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_118 - Add-on selection availability is reflected by the listing" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_119 - Add-ons are displayed when the selection dialog is available" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_120 - Add-on name is displayed when the selection dialog is available" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_121 - Add-on price is displayed when the selection dialog is available" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_122 - Add-on checkbox is displayed when the selection dialog is available" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_123 - Add-on checkbox reflects the current staging interaction" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_124 - Continue control is available without an add-on selected" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_125 - Continue leaves the current add-on dialog open" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_126 - Continue keeps the current add-on step on the listing URL" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_127 - Add-ons are scoped to the selected package" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Add-on Selection @regression @sheet › TC_128 - Continuing without an add-on keeps the current selection dialog open" classname="regression\upcomingClasses.spec.js">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

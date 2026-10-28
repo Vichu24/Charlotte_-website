@@ -1,0 +1,5584 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--grep",
+      "@regression",
+      "--project=chromium",
+      "--workers=1",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\playwright.config.js",
+    "rootDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\global-setup.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-safari",
+        "name": "mobile-safari",
+        "testDir": "C:/Users/Vishnur/Downloads/charlotte-website_v2/charlotte-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "chromium",
+        "testDir": "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\tests",
+        "snapshotDir": "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://charlottestaging.newagesmb.com",
+          "headless": true,
+          "slowMo": 0,
+          "actionTimeout": 15000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ignoreHTTPSErrors": false,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit-results.xml"
+        }
+      ],
+      [
+        "C:\\Users\\Vishnur\\Downloads\\charlotte-website_v2\\charlotte-automation\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "reports/allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "regression\\contract.spec.js",
+      "file": "regression/contract.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Enrollment entry flow @regression @sheet",
+          "file": "regression/contract.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Enrollment start heading and guidance are displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-bb78f7eea996912834aa",
+              "file": "regression/contract.spec.js",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "Student Date of Birth selector is displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-62fb46d83e9b58102a5a",
+              "file": "regression/contract.spec.js",
+              "line": 18,
+              "column": 3
+            },
+            {
+              "title": "Preferred location selector is optional",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-5eb5c91f006b561bda4c",
+              "file": "regression/contract.spec.js",
+              "line": 22,
+              "column": 3
+            },
+            {
+              "title": "All current student types are available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-2d2a1de87d4b3b7c5886",
+              "file": "regression/contract.spec.js",
+              "line": 26,
+              "column": 3
+            },
+            {
+              "title": "Continue is disabled until required enrollment choices are made",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-16ad3874d355060f1df4",
+              "file": "regression/contract.spec.js",
+              "line": 33,
+              "column": 3
+            },
+            {
+              "title": "Packages are not shown before enrollment choices are made",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-df572178967dac862a88",
+              "file": "regression/contract.spec.js",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "Terms of Service is available from the footer",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-fc4e4b3ff139b8128eab",
+              "file": "regression/contract.spec.js",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "Privacy Policy is available from the footer",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a29d6f6e8563ee95cb63-34635a9bb3ecdef3b387",
+              "file": "regression/contract.spec.js",
+              "line": 45,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\landingPageSheetCases.spec.js",
+      "file": "regression/landingPageSheetCases.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Landing page - DOB & Student Type widget @regression @sheet",
+          "file": "regression/landingPageSheetCases.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_01 - Landing page loads with DOB field, Student Type radios, and Continue button",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-727b73f4184d46815407",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "TC_02 - Clicking Date of Birth field displays the calendar date picker",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-ff7f2bbda3119be12183",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "TC_03 - Selecting a date from the calendar populates the DOB field",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-f6873c2a1f5dafbcb804",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 32,
+              "column": 3
+            },
+            {
+              "title": "TC_04 - Continue remains disabled without DOB",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-7cc1df5c83a6908afac0",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "TC_05 - Continue remains disabled when DOB is missing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-bca174dabb2e4e822a5a",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 46,
+              "column": 3
+            },
+            {
+              "title": "TC_06 - Student Type options displayed: New Student, Transfer Student, Additional Lessons",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-d796e455e59c06505597",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 51,
+              "column": 3
+            },
+            {
+              "title": "TC_07 - Student Type options are rendered as radio buttons",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-202169a730833b703b08",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 59,
+              "column": 3
+            },
+            {
+              "title": "TC_08 - Selecting a Student Type highlights/checks that option",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-d1c112b0d8edbb13583d",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 63,
+              "column": 3
+            },
+            {
+              "title": "TC_09 - Continue remains disabled when Student Type is omitted",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-76c11e3bfb89e2049d96",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "TC_10 - Continue remains disabled when Student Type is missing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-1f0a52ebce24a8ef255f",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "TC_11 - Continue button is displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-2c089d28323c72b670c1",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 80,
+              "column": 3
+            },
+            {
+              "title": "TC_12 - Continue with valid DOB and Student Type processes and proceeds",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-32b789926e498a6bb160",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 84,
+              "column": 3
+            },
+            {
+              "title": "TC_13 - System calculates student age correctly from DOB",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-1cbcdee63ec6f55b4fda",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 89,
+              "column": 3
+            },
+            {
+              "title": "TC_14 - Teen DOB routes to Teen Packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-19f664c5d0beb5a9d6b1",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 98,
+              "column": 3
+            },
+            {
+              "title": "TC_15 - Adult DOB routes to Adult Packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-579c025d335fd2db5725",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "TC_16 - New Student selection displays relevant new-student packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-ee6aaebd41a9bdadaeb4",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 108,
+              "column": 3
+            },
+            {
+              "title": "TC_17 - Transfer Student selection displays transfer-student packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-f01b37dbc5e9a054aa64",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "TC_18 - Additional Lessons selection displays packages including road test options",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "3f954813ce203ec6fa8f-35169674992e0d79a234",
+              "file": "regression/landingPageSheetCases.spec.js",
+              "line": 124,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\navigation.spec.js",
+      "file": "regression/navigation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Site navigation @regression",
+          "file": "regression/navigation.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "\"Home\" (/) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-ed672f3efe0a64bed51f",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"Driver Training\" (/driver-training) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-821fdd46a53b4e9a7001",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"Simulators\" (/simulators) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-3961da74bc2dfad807c7",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"About - Our Story\" (/about/our-story) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-55a59316a2bd8885eabb",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"About - Our Team\" (/about/our-team) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-321d3a11a7f7063b6359",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"About - Testimonials\" (/about/testimonials) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-cdcb46f2947ec56c3370",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"About - FAQs\" (/about/faqs) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-f0cb627493bfbd2670d4",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"Contact Us\" (/contact) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-4edf30b309c62e699f6f",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"Terms of Service\" (/terms) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-b28f3024982fb13c9cd8",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "\"Privacy Policy\" (/privacy) loads without error",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-4320849b9b9717487610",
+              "file": "regression/navigation.spec.js",
+              "line": 6,
+              "column": 5
+            },
+            {
+              "title": "nav bar is consistent across pages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a618fbf918950875ea37-c8f65c9218324233acd2",
+              "file": "regression/navigation.spec.js",
+              "line": 18,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\packageListing.spec.js",
+      "file": "regression/packageListing.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Package Listing @regression @sheet",
+          "file": "regression/packageListing.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_19 - Package listing page loads",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-9b6a858e020474dea659",
+              "file": "regression/packageListing.spec.js",
+              "line": 19,
+              "column": 3
+            },
+            {
+              "title": "TC_20 - Packages displayed in card format",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-48f29fa63031e3dd5ab8",
+              "file": "regression/packageListing.spec.js",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "TC_21 - Package name displayed on card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-891141e4d87eab982ecc",
+              "file": "regression/packageListing.spec.js",
+              "line": 27,
+              "column": 3
+            },
+            {
+              "title": "TC_22 - Package amount displayed on card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-c3d19de1f7a404a65f83",
+              "file": "regression/packageListing.spec.js",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "TC_23 - Package description displayed on card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-641967adcaa798cfc988",
+              "file": "regression/packageListing.spec.js",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "TC_24 - Included features list displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-20b1ced3f5b9414b05c0",
+              "file": "regression/packageListing.spec.js",
+              "line": 39,
+              "column": 3
+            },
+            {
+              "title": "TC_25 - Enroll button displayed on package card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-e731f525ab63c99b368d",
+              "file": "regression/packageListing.spec.js",
+              "line": 43,
+              "column": 3
+            },
+            {
+              "title": "TC_26 - Permit Required tag displayed when configured",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-85535759d7a3c9c0e63d",
+              "file": "regression/packageListing.spec.js",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "TC_27 - Permit tag hidden when not configured",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-09526dac2d3ff87536c1",
+              "file": "regression/packageListing.spec.js",
+              "line": 53,
+              "column": 3
+            },
+            {
+              "title": "TC_28 - Every displayed package has working actions",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-8e582e8114f43049a63a",
+              "file": "regression/packageListing.spec.js",
+              "line": 61,
+              "column": 3
+            },
+            {
+              "title": "TC_29 - Teen DOB filters to Teen packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-290c0d49351ef4c3660b",
+              "file": "regression/packageListing.spec.js",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "TC_30 - Adult DOB filters to Adult packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-bec794865fb73d3360a7",
+              "file": "regression/packageListing.spec.js",
+              "line": 79,
+              "column": 3
+            },
+            {
+              "title": "TC_31 - Packages filtered by student type (New Student)",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-4c9f40e0823221cc4edb",
+              "file": "regression/packageListing.spec.js",
+              "line": 86,
+              "column": 3
+            },
+            {
+              "title": "TC_32 - User can scroll to view other available packages",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-a6a644aa134e8c50786f",
+              "file": "regression/packageListing.spec.js",
+              "line": 90,
+              "column": 3
+            },
+            {
+              "title": "TC_33 - Empty-state message is hidden when packages are available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-7bfe48c3d444774ba15d",
+              "file": "regression/packageListing.spec.js",
+              "line": 95,
+              "column": 3
+            },
+            {
+              "title": "TC_34 - Package page remains usable after a failed filter refresh",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-df52eb9a6583839f637b",
+              "file": "regression/packageListing.spec.js",
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "TC_35 - Multiple packages all displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-91b3cff4e32040bca3d4",
+              "file": "regression/packageListing.spec.js",
+              "line": 123,
+              "column": 3
+            },
+            {
+              "title": "TC_36 - Clicking Enroll initiates the enrollment flow",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-9c2e3cd5fe8788ac47db",
+              "file": "regression/packageListing.spec.js",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "TC_37 - Enroll navigates to Upcoming Classes",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-0b6fd9a29fef8abc9dff",
+              "file": "regression/packageListing.spec.js",
+              "line": 133,
+              "column": 3
+            },
+            {
+              "title": "TC_38 - Selected package context passed forward",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-152df72569b9bf8d7c20",
+              "file": "regression/packageListing.spec.js",
+              "line": 143,
+              "column": 3
+            },
+            {
+              "title": "TC_39 - User cannot continue before making enrollment choices",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-255a85749dbb82336654",
+              "file": "regression/packageListing.spec.js",
+              "line": 163,
+              "column": 3
+            },
+            {
+              "title": "TC_40 - View Detail button displayed on package card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-0862c8812d5c26abc445",
+              "file": "regression/packageListing.spec.js",
+              "line": 168,
+              "column": 3
+            },
+            {
+              "title": "TC_41 - View Detail opens the package detail page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-4fba034be212893c21ee",
+              "file": "regression/packageListing.spec.js",
+              "line": 172,
+              "column": 3
+            },
+            {
+              "title": "TC_42 - Package title displayed in detail view",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-b1b94d5c43b2f9b348e5",
+              "file": "regression/packageListing.spec.js",
+              "line": 178,
+              "column": 3
+            },
+            {
+              "title": "TC_43 - Package description shown in detail page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-ffd9b496f55946fbc483",
+              "file": "regression/packageListing.spec.js",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "TC_44 - Package features list shown in detail page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-c59b30f1e73a48561b29",
+              "file": "regression/packageListing.spec.js",
+              "line": 190,
+              "column": 3
+            },
+            {
+              "title": "TC_45 - Enroll button displayed in detail view",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-b06840864e8b4c6a5da6",
+              "file": "regression/packageListing.spec.js",
+              "line": 196,
+              "column": 3
+            },
+            {
+              "title": "TC_46 - Selected package context passed to detail view",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-5c67b8b7582ea9b3fa6a",
+              "file": "regression/packageListing.spec.js",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "TC_47 - Permit requirement is retained on package detail",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-179194cc58c55cfc544e",
+              "file": "regression/packageListing.spec.js",
+              "line": 209,
+              "column": 3
+            },
+            {
+              "title": "TC_48 - Standard package detail does not show Drive Only",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-9a9e3aaede2c78fc578e",
+              "file": "regression/packageListing.spec.js",
+              "line": 220,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Enroll navigation @regression @sheet",
+          "file": "regression/packageListing.spec.js",
+          "line": 232,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_49 - Enroll opens the Upcoming Classes step",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-ff0cc4c7fc307951b97a",
+              "file": "regression/packageListing.spec.js",
+              "line": 241,
+              "column": 3
+            },
+            {
+              "title": "TC_50 - Available classes are displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-13188956590de16fa7a2",
+              "file": "regression/packageListing.spec.js",
+              "line": 246,
+              "column": 3
+            },
+            {
+              "title": "TC_51 - Class selection controls reflect session availability",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-b6c9accf4649f9fb4df8",
+              "file": "regression/packageListing.spec.js",
+              "line": 250,
+              "column": 3
+            },
+            {
+              "title": "TC_52 - Online class filter is displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-8cbe33819b2a5bc30e21",
+              "file": "regression/packageListing.spec.js",
+              "line": 265,
+              "column": 3
+            },
+            {
+              "title": "TC_53 - Class date filter is displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-0752b4e2574d901a0e03",
+              "file": "regression/packageListing.spec.js",
+              "line": 269,
+              "column": 3
+            },
+            {
+              "title": "TC_54 - User may continue without selecting a class",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-26f128c5a138ece68394",
+              "file": "regression/packageListing.spec.js",
+              "line": 273,
+              "column": 3
+            },
+            {
+              "title": "TC_55 - Enrollment proceeds without an additional DOB dialog",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-b64928eca2c038c71b14",
+              "file": "regression/packageListing.spec.js",
+              "line": 277,
+              "column": 3
+            },
+            {
+              "title": "TC_56 - Current enrollment step includes class scheduling guidance",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-66cd3b8e7f755d7607f1",
+              "file": "regression/packageListing.spec.js",
+              "line": 282,
+              "column": 3
+            },
+            {
+              "title": "TC_57 - Class session cards show their selection controls",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-ef03e540451a54d8989c",
+              "file": "regression/packageListing.spec.js",
+              "line": 286,
+              "column": 3
+            },
+            {
+              "title": "TC_58 - Enrollment is not blocked by a second DOB check",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cddf8a6a2f30df2bffcb-bec99e6d439fbab0ee4e",
+              "file": "regression/packageListing.spec.js",
+              "line": 291,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\payment.spec.js",
+      "file": "regression/payment.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Payment Page @regression @sheet",
+          "file": "regression/payment.spec.js",
+          "line": 23,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Payment - TC_171 - Payment Page loads",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-b82b50b38cff4614448b",
+              "file": "regression/payment.spec.js",
+              "line": 38,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_172 - Pay in Full and Pay Deposit options displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-5263e71859f49350d7d9",
+              "file": "regression/payment.spec.js",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_173 - Pay in Full is selected by default",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-4765f40e12656d796b5e",
+              "file": "regression/payment.spec.js",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_174 - Payment step is shown without a legacy back button",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-7a5470d9b178ba588832",
+              "file": "regression/payment.spec.js",
+              "line": 51,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_175 - Pay button displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-97b13fae6caf6becb5f1",
+              "file": "regression/payment.spec.js",
+              "line": 56,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_176 - Pay in Full selection works",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-9730d5d187dab2df23ca",
+              "file": "regression/payment.spec.js",
+              "line": 60,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_177 - Pay Deposit selection works",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-2443d98ebe2ce088edad",
+              "file": "regression/payment.spec.js",
+              "line": 65,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_178 - Summary shows full package amount when Pay in Full selected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-dd19a871cae232855e61",
+              "file": "regression/payment.spec.js",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_179 - Summary shows deposit amount when Pay Deposit selected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-d3f24aa73b6d7226795c",
+              "file": "regression/payment.spec.js",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_180 - Remaining balance calculated correctly",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-4b5ff5814af9f992ae26",
+              "file": "regression/payment.spec.js",
+              "line": 80,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_181 - Deposit amount fetched from admin config",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-913459af6f49f274b69f",
+              "file": "regression/payment.spec.js",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_182 - Package name displayed in summary",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-01d7eff076b2aa241756",
+              "file": "regression/payment.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_183 - Package details displayed in summary",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-44f64825833f00b29a86",
+              "file": "regression/payment.spec.js",
+              "line": 107,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_184 - No add-ons appear when none were selected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-fef8b6007dc7f4b37c09",
+              "file": "regression/payment.spec.js",
+              "line": 112,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_185 - Total amount calculated correctly",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-e704a0b4150a62e0d0d5",
+              "file": "regression/payment.spec.js",
+              "line": 122,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_186 - Coupon field is absent on the current payment form",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-22c8eaf4216eae455dc5",
+              "file": "regression/payment.spec.js",
+              "line": 137,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_187 - \"Use Same Address\" checkbox displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-75111999d21aaa776104",
+              "file": "regression/payment.spec.js",
+              "line": 141,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_188 - Billing address auto-fills from student info when checked",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-49e2572ffd984eea17e8",
+              "file": "regression/payment.spec.js",
+              "line": 145,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_189 - Address fields editable when unchecked",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-e73b04198657a9781b72",
+              "file": "regression/payment.spec.js",
+              "line": 155,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_190 - Address required when unchecked and submitted empty",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-2d092ccb8cc872030aff",
+              "file": "regression/payment.spec.js",
+              "line": 160,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_191 - Card number field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-c9d497e18c6cb36b30d2",
+              "file": "regression/payment.spec.js",
+              "line": 165,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_192 - Expiry month field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-033af9854824a495dd33",
+              "file": "regression/payment.spec.js",
+              "line": 169,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_193 - Expiry year field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-f2d3e6ba98cdca0c9db1",
+              "file": "regression/payment.spec.js",
+              "line": 173,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_194 - CVV field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-94d671e534bb7e72f8dd",
+              "file": "regression/payment.spec.js",
+              "line": 177,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_195 - Cardholder first name field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-c0840979d95f61467e50",
+              "file": "regression/payment.spec.js",
+              "line": 181,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_196 - Cardholder last name field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-2c5ffae9c6c4679eba52",
+              "file": "regression/payment.spec.js",
+              "line": 185,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_197 - Card zip code field displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-19c2d7cdda2cc13185e9",
+              "file": "regression/payment.spec.js",
+              "line": 189,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_198 - Pay in Full is selected when no payment type is changed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-407ea12abc30499d1fb0",
+              "file": "regression/payment.spec.js",
+              "line": 193,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_199 - Card number required validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-02eebd3d3c1687749a4c",
+              "file": "regression/payment.spec.js",
+              "line": 198,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_200 - Invalid card number rejected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-2d0fe9c809538769e624",
+              "file": "regression/payment.spec.js",
+              "line": 205,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_201 - Expiry date required validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-b2976c9eb0ca45288da4",
+              "file": "regression/payment.spec.js",
+              "line": 212,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_202 - CVV required validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-3f47dc59659a1e3b5dc2",
+              "file": "regression/payment.spec.js",
+              "line": 219,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_203 - Cardholder names are optional on the current form",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-22df3399451fe41b277c",
+              "file": "regression/payment.spec.js",
+              "line": 226,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_204 - Billing address required validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-7fd66f623dde4fca9324",
+              "file": "regression/payment.spec.js",
+              "line": 233,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_205 - Confirmation prompt shown with valid details",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-4c840431542e6bf24739",
+              "file": "regression/payment.spec.js",
+              "line": 239,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_206 - Successful payment redirects to Payment Success page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-1c92e589f57e626eac66",
+              "file": "regression/payment.spec.js",
+              "line": 246,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_207 - Payment gateway failure shows error message",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-e75af493cfa10dc95c88",
+              "file": "regression/payment.spec.js",
+              "line": 254,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_208 - Network failure shows connection error message",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-926f682874ed1dde9bbf",
+              "file": "regression/payment.spec.js",
+              "line": 275,
+              "column": 3
+            },
+            {
+              "title": "Payment - TC_209 - Repeated Pay clicks open one confirmation prompt",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "a84c15c90f8ce3e1c211-67da0212121499910bfa",
+              "file": "regression/payment.spec.js",
+              "line": 292,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\studentInformation.spec.js",
+      "file": "regression/studentInformation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Student Information - shared behaviour @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_144 - Student Information page loads",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-a2a9ad65bfdb1ad9ac6a",
+              "file": "regression/studentInformation.spec.js",
+              "line": 12,
+              "column": 3
+            },
+            {
+              "title": "TC_145 - DOB auto-filled from landing page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-b9248954d6ba74899b43",
+              "file": "regression/studentInformation.spec.js",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "TC_146 - DOB field remains locked after package selection",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-a0dc9a0a99d8338842b6",
+              "file": "regression/studentInformation.spec.js",
+              "line": 20,
+              "column": 3
+            },
+            {
+              "title": "TC_147 - Selected teen DOB displays teen-specific fields",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-ca0f1dda52a6d5394594",
+              "file": "regression/studentInformation.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "TC_148 - Teen form fields displayed for Teen DOB",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-722e5ecc6863b9763e03",
+              "file": "regression/studentInformation.spec.js",
+              "line": 30,
+              "column": 3
+            },
+            {
+              "title": "TC_149 - Adult form fields displayed for Adult DOB",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-ee2df961f0d333d1e23c",
+              "file": "regression/studentInformation.spec.js",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "TC_150 - Continue button displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-973079991be0e0c32888",
+              "file": "regression/studentInformation.spec.js",
+              "line": 39,
+              "column": 3
+            },
+            {
+              "title": "TC_151 - Valid form submission redirects to digital signature",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-114b7202835d328fc5a3",
+              "file": "regression/studentInformation.spec.js",
+              "line": 43,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Teen Student - Personal Information @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 65,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_152 - First Name mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-717315a1cbb3988d8492",
+              "file": "regression/studentInformation.spec.js",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "TC_153 - Last Name mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-f9bd7c0c670755b32155",
+              "file": "regression/studentInformation.spec.js",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "TC_154 - DOB mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-c708e70d9ea27ac6075d",
+              "file": "regression/studentInformation.spec.js",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "TC_155 - Gender selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-fd0be4ec22f2f8f45a37",
+              "file": "regression/studentInformation.spec.js",
+              "line": 86,
+              "column": 3
+            },
+            {
+              "title": "TC_156 - Student phone entry saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-e621d4f871549a551644",
+              "file": "regression/studentInformation.spec.js",
+              "line": 90,
+              "column": 3
+            },
+            {
+              "title": "TC_157 - Email format validated",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-9e2335fedbb16645a4c1",
+              "file": "regression/studentInformation.spec.js",
+              "line": 94,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Teen - Parent/Guardian Information @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 101,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_158 - Parent name mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-0213df1adea52ebb1f52",
+              "file": "regression/studentInformation.spec.js",
+              "line": 106,
+              "column": 3
+            },
+            {
+              "title": "TC_159 - Parent phone mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-96a6d8e6d7fe2de4b9f7",
+              "file": "regression/studentInformation.spec.js",
+              "line": 111,
+              "column": 3
+            },
+            {
+              "title": "TC_160 - Parent phone numeric validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-a74f648d2d92f8f8cd5f",
+              "file": "regression/studentInformation.spec.js",
+              "line": 117,
+              "column": 3
+            },
+            {
+              "title": "TC_161 - Parent email validation",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-c772bb98e9d05a87604f",
+              "file": "regression/studentInformation.spec.js",
+              "line": 123,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Teen - Emergency Details @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 130,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_162 - Emergency contact name saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-f49e1daaeb7bd8b1fd7c",
+              "file": "regression/studentInformation.spec.js",
+              "line": 135,
+              "column": 3
+            },
+            {
+              "title": "TC_163 - Emergency relationship saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-68964226e35d543a761b",
+              "file": "regression/studentInformation.spec.js",
+              "line": 139,
+              "column": 3
+            },
+            {
+              "title": "TC_164 - Emergency phone saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-3a4940d0ee7e70b79670",
+              "file": "regression/studentInformation.spec.js",
+              "line": 143,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Teen - Additional & Other Details @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 148,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_165 - Medical condition field mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-af37233b8f6ebaa3f0b5",
+              "file": "regression/studentInformation.spec.js",
+              "line": 153,
+              "column": 3
+            },
+            {
+              "title": "TC_166 - High school dropdown selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-ab95e69637b7c8966912",
+              "file": "regression/studentInformation.spec.js",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "TC_167 - Glasses/contacts dropdown selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-80c285f80f72316fd53f",
+              "file": "regression/studentInformation.spec.js",
+              "line": 189,
+              "column": 3
+            },
+            {
+              "title": "TC_168 - Referral source dropdown selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-f4f04a350f40cce9c940",
+              "file": "regression/studentInformation.spec.js",
+              "line": 194,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Adult Student - Personal Information @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 199,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_169 - Adult first name mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-fb4d270bddd13db3cabb",
+              "file": "regression/studentInformation.spec.js",
+              "line": 204,
+              "column": 3
+            },
+            {
+              "title": "TC_170 - Adult last name mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-46012ab6f3872d43e479",
+              "file": "regression/studentInformation.spec.js",
+              "line": 209,
+              "column": 3
+            },
+            {
+              "title": "TC_171 - Adult gender selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-53ac514f13cdd0bd101c",
+              "file": "regression/studentInformation.spec.js",
+              "line": 215,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Adult - Permit Information @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 220,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_172 - Permit question displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-ed029d926b8077404e6e",
+              "file": "regression/studentInformation.spec.js",
+              "line": 225,
+              "column": 3
+            },
+            {
+              "title": "TC_173 - Permit fields appear when Yes selected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-3076d6fbdb46ef82c2bb",
+              "file": "regression/studentInformation.spec.js",
+              "line": 230,
+              "column": 3
+            },
+            {
+              "title": "TC_174 - Permit number mandatory when permit = Yes",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-63f0f89ab8bc08b0ab34",
+              "file": "regression/studentInformation.spec.js",
+              "line": 235,
+              "column": 3
+            },
+            {
+              "title": "TC_175 - Permit issued date accepted",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-2b52e0fc6269f48e650d",
+              "file": "regression/studentInformation.spec.js",
+              "line": 241,
+              "column": 3
+            },
+            {
+              "title": "TC_176 - Permit expiry picker prevents selecting an expired year",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-5b32fe61e0c734ca1714",
+              "file": "regression/studentInformation.spec.js",
+              "line": 247,
+              "column": 3
+            },
+            {
+              "title": "TC_177 - Permit upload accepts a valid JPG",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-7528ed9f89b332d89d9f",
+              "file": "regression/studentInformation.spec.js",
+              "line": 257,
+              "column": 3
+            },
+            {
+              "title": "TC_178 - Permit upload rejects unsupported file formats",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-5f988ba50b1cbb8efe30",
+              "file": "regression/studentInformation.spec.js",
+              "line": 268,
+              "column": 3
+            },
+            {
+              "title": "TC_179 - Permit file size validation (>10MB rejected)",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-d6df4a50559cfa21fe7a",
+              "file": "regression/studentInformation.spec.js",
+              "line": 279,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Adult - Contact Information @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 291,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_180 - Phone mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-0b5dfff82dcece0621ad",
+              "file": "regression/studentInformation.spec.js",
+              "line": 296,
+              "column": 3
+            },
+            {
+              "title": "TC_181 - Email mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-475f2e415dd9bf7961a9",
+              "file": "regression/studentInformation.spec.js",
+              "line": 301,
+              "column": 3
+            },
+            {
+              "title": "TC_182 - Address mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-b695e2f93220c4d09dfa",
+              "file": "regression/studentInformation.spec.js",
+              "line": 306,
+              "column": 3
+            },
+            {
+              "title": "TC_183 - City entry saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-3b7157009711ce8d05ca",
+              "file": "regression/studentInformation.spec.js",
+              "line": 311,
+              "column": 3
+            },
+            {
+              "title": "TC_184 - State dropdown selection saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-a83c0d88e73ea84ced2c",
+              "file": "regression/studentInformation.spec.js",
+              "line": 315,
+              "column": 3
+            },
+            {
+              "title": "TC_185 - Zip code entry saved",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-0818e5b474984863f080",
+              "file": "regression/studentInformation.spec.js",
+              "line": 319,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Terms & Conditions Section @regression @sheet",
+          "file": "regression/studentInformation.spec.js",
+          "line": 324,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_186 - Terms checkbox displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-14820260026924206ca4",
+              "file": "regression/studentInformation.spec.js",
+              "line": 329,
+              "column": 3
+            },
+            {
+              "title": "TC_187 - Terms hyperlink opens Terms page",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-b4880b4a2de14ae1caa9",
+              "file": "regression/studentInformation.spec.js",
+              "line": 333,
+              "column": 3
+            },
+            {
+              "title": "TC_188 - Terms acceptance required to continue",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-7e89e33c500e3dab1b37",
+              "file": "regression/studentInformation.spec.js",
+              "line": 341,
+              "column": 3
+            },
+            {
+              "title": "TC_189 - Form submits successfully once Terms accepted",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b296a7f7ccc56f6c8590-616febd11da6fbbefd85",
+              "file": "regression/studentInformation.spec.js",
+              "line": 346,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\studentSelector.spec.js",
+      "file": "regression/studentSelector.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Student package selector @regression",
+          "file": "regression/studentSelector.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Continue is disabled until DOB and student type are both provided",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-902e92808ba614ea7509",
+              "file": "regression/studentSelector.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "selecting \"New Student, adult DOB\" with a valid DOB unlocks packages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-25ac68dc2326557e122c",
+              "file": "regression/studentSelector.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "selecting \"New Student, teen DOB\" with a valid DOB unlocks packages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-96918bc705c98560c2cd",
+              "file": "regression/studentSelector.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "selecting \"Transfer Student\" with a valid DOB unlocks packages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-dcb0bece74ad85ab2d5a",
+              "file": "regression/studentSelector.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "selecting \"Additional Lessons\" with a valid DOB unlocks packages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-5614b30180f158634059",
+              "file": "regression/studentSelector.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "selecting \"Road Test\" with a valid DOB unlocks packages",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-de924a44a4c6d8008b04",
+              "file": "regression/studentSelector.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "students below minimum age are blocked from package selection",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-07bf6ed874f8f9b88125",
+              "file": "regression/studentSelector.spec.js",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "empty DOB keeps Continue disabled regardless of student type",
+              "ok": true,
+              "tags": [
+                "regression"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "eec657473573a9212377-d665480d101e1604dc6f",
+              "file": "regression/studentSelector.spec.js",
+              "line": 52,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "regression\\upcomingClasses.spec.js",
+      "file": "regression/upcomingClasses.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Upcoming Classes @regression @sheet",
+          "file": "regression/upcomingClasses.spec.js",
+          "line": 36,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_74 - Upcoming Classes page loads",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-8a00fa4d4e254d996db9",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "TC_75 - Sessions displayed in card format",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-21ad14dfe1b6767d3125",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 46,
+              "column": 3
+            },
+            {
+              "title": "TC_76 - Start Date & Time displayed on session card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-500faeba503a31dcc6e3",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 50,
+              "column": 3
+            },
+            {
+              "title": "TC_77 - End Date & Time displayed on session card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-6761e20d850b0ca3ad69",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "TC_78 - Course Type displayed on session card",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-c33e55cf3a561ce30160",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "TC_79 - Online class tag is not shown on in-person sessions",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-33d37a8e69cce5e3dc78",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "TC_80 - Online tag hidden for offline sessions",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-9a5fcd88c784677626f4",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "TC_81 - View Schedule link displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-fca49d8e2b234421fef1",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 74,
+              "column": 3
+            },
+            {
+              "title": "TC_82 - Select button displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-775b03637c103b52f8c6",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 78,
+              "column": 3
+            },
+            {
+              "title": "TC_83 - Full-class availability is reflected in the current listing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-d644aac5dcc94cc04d7f",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 82,
+              "column": 3
+            },
+            {
+              "title": "TC_84 - Select is disabled for full classes when present",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-88679fae1f6debc9ef43",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "TC_85 - Join Waitlist is offered only for eligible full classes",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-97a8da58c1019ee2b52b",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 101,
+              "column": 3
+            },
+            {
+              "title": "TC_86 - Lesson type filter is not exposed on the current class listing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-75271b19a3a7da662a71",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 111,
+              "column": 3
+            },
+            {
+              "title": "TC_87 - Course filter is not exposed on the current class listing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-e79d7fa6340478c0a503",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 115,
+              "column": 3
+            },
+            {
+              "title": "TC_88 - Filtering by Date narrows the list",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-6fe12db51c3ea7ad4e59",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 119,
+              "column": 3
+            },
+            {
+              "title": "TC_89 - Selecting an available session opens the next step",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-07aacb3806123320f416",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "TC_90 - Selecting a session opens Add-on Selection",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-dcdc7455d2d03ed6f1c7",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 133,
+              "column": 3
+            },
+            {
+              "title": "TC_91 - Continue without selecting a class proceeds to student information",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-768dc599a67478f10b66",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 138,
+              "column": 3
+            },
+            {
+              "title": "TC_92 - Empty-state message is hidden when upcoming classes exist",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-15c42063065afcae5642",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 143,
+              "column": 3
+            },
+            {
+              "title": "TC_93 - Only future sessions are displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-1ccddbeb7261852ca647",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 148,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Join Waitlist when offered @regression @sheet",
+          "file": "regression/upcomingClasses.spec.js",
+          "line": 159,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_94 - Join Waitlist pop-up opens",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-0bded4bcc630c97a6e28",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 161,
+              "column": 3
+            },
+            {
+              "title": "TC_95 - Waitlist form fields displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-82f4135353433e672aac",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 166,
+              "column": 3
+            },
+            {
+              "title": "TC_96 - Submit button displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-c1cd98ad372e5d1ae3a1",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 171,
+              "column": 3
+            },
+            {
+              "title": "TC_97 - Close button closes the pop-up",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-1d5f92fae3763122429a",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "TC_98 - All fields are mandatory",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-47d3210edb6d42b189cc",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 182,
+              "column": 3
+            },
+            {
+              "title": "TC_99 - Invalid email format is rejected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-a66bcf471b1884111134",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 188,
+              "column": 3
+            },
+            {
+              "title": "TC_100 - Invalid phone number is rejected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-73fca2a7ce3078941a0d",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 200,
+              "column": 3
+            },
+            {
+              "title": "TC_101 - Successful waitlist submission with valid data",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-6f79738e7e270a6d4d08",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 212,
+              "column": 3
+            },
+            {
+              "title": "TC_102 - Joined status is shown after successful submission",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-87c3ab556bf0a6b78445",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 223,
+              "column": 3
+            },
+            {
+              "title": "TC_103 - Waitlist form is opened from the selected full session",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-6dc53ff9f2ae50a5a884",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 235,
+              "column": 3
+            },
+            {
+              "title": "TC_104 - Repeat submission is blocked while the request is pending",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-9059044dfcac71582b3e",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 241,
+              "column": 3
+            },
+            {
+              "title": "TC_105 - Waitlist form retains the entered phone number",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-0abb0218696ade0de4a0",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 253,
+              "column": 3
+            },
+            {
+              "title": "TC_106 - Waitlist submission confirms the user was added",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-fcd925f0e8db1b76c2f2",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 261,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "View Classroom Schedule Details @regression @sheet",
+          "file": "regression/upcomingClasses.spec.js",
+          "line": 274,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_107 - View Schedule pop-up opens",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-0d15c4b661e48443bc4c",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 280,
+              "column": 3
+            },
+            {
+              "title": "TC_108 - In-Person tag visible in schedule pop-up",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-f6cec7af3cc14cda3996",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "TC_109 - Start date displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-85d4408076e4e95ef695",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 288,
+              "column": 3
+            },
+            {
+              "title": "TC_110 - End date displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-09a5daf7572f08189d65",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 292,
+              "column": 3
+            },
+            {
+              "title": "TC_111 - Course type displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-74eb05d1f262ed8b8fe5",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 296,
+              "column": 3
+            },
+            {
+              "title": "TC_112 - Class ID displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-91886825bd4f11777fc9",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 300,
+              "column": 3
+            },
+            {
+              "title": "TC_113 - Session table displayed",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-c91234f05e75fefdf209",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 304,
+              "column": 3
+            },
+            {
+              "title": "TC_114 - Session date displayed in table",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-7e4ca605d70f01773c4a",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 308,
+              "column": 3
+            },
+            {
+              "title": "TC_115 - Session start time displayed in table",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-b81aeb6e477c5f7a7deb",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 312,
+              "column": 3
+            },
+            {
+              "title": "TC_116 - Session end time displayed in table",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-3dac06e4e846dd4474a2",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 316,
+              "column": 3
+            },
+            {
+              "title": "TC_117 - Close button closes the pop-up",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-da8348443086ff464dcc",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 320,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Add-on Selection @regression @sheet",
+          "file": "regression/upcomingClasses.spec.js",
+          "line": 326,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_118 - Add-on selection availability is reflected by the listing",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-bc4e98ab28274e62357b",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 342,
+              "column": 3
+            },
+            {
+              "title": "TC_119 - Add-ons are displayed when the selection dialog is available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-7594f18e72be7154956a",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 347,
+              "column": 3
+            },
+            {
+              "title": "TC_120 - Add-on name is displayed when the selection dialog is available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-737eeba1a65994c5290e",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 352,
+              "column": 3
+            },
+            {
+              "title": "TC_121 - Add-on price is displayed when the selection dialog is available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-acd1d348b4467ceff858",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 357,
+              "column": 3
+            },
+            {
+              "title": "TC_122 - Add-on checkbox is displayed when the selection dialog is available",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-943bf2a8bcff4d372f5f",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 362,
+              "column": 3
+            },
+            {
+              "title": "TC_123 - Add-on checkbox reflects the current staging interaction",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-5c7e1ca4f520541b9af6",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 367,
+              "column": 3
+            },
+            {
+              "title": "TC_124 - Continue control is available without an add-on selected",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-cd46315878fb2e4ee9b9",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 374,
+              "column": 3
+            },
+            {
+              "title": "TC_125 - Continue leaves the current add-on dialog open",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-67dbf5bc2afac531f8ad",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 380,
+              "column": 3
+            },
+            {
+              "title": "TC_126 - Continue keeps the current add-on step on the listing URL",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-8030f20d91818a237838",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 386,
+              "column": 3
+            },
+            {
+              "title": "TC_127 - Add-ons are scoped to the selected package",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-8511c797262b9574a2d5",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 394,
+              "column": 3
+            },
+            {
+              "title": "TC_128 - Continuing without an add-on keeps the current selection dialog open",
+              "ok": true,
+              "tags": [
+                "regression",
+                "sheet"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "5c494459d3019d5b3022-79cb988fd91a35541b49",
+              "file": "regression/upcomingClasses.spec.js",
+              "line": 400,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-28T13:34:51.327Z",
+    "duration": 299.554,
+    "expected": 0,
+    "skipped": 225,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

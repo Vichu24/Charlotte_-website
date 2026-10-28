@@ -1,0 +1,68 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to test'
+        required: false
+        default: 'staging'
+        type: choice
+        options: [staging, production]
+
+jobs:
+  test:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+      ENV: ${{ github.event.inputs.environment || 'staging' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Lint and test utilities
+        run: |
+          npm run lint
+          npm run test:unit
+
+      - name: Run Playwright tests
+        run: npx playwright test
+
+      - name: Upload HTML report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-html-report
+          path: reports/html-report
+          retention-days: 14
+
+      - name: Upload traces/screenshots on failure
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: test-results
+          path: test-results
+          retention-days: 14
+
+      - name: Upload sanitized runtime logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-logs
+          path: logs/
+          retention-days: 7

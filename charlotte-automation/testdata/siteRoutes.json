@@ -1,0 +1,12 @@
+[
+  { "name": "Home", "path": "/" },
+  { "name": "Driver Training", "path": "/driver-training" },
+  { "name": "Simulators", "path": "/simulators" },
+  { "name": "About - Our Story", "path": "/about/our-story" },
+  { "name": "About - Our Team", "path": "/about/our-team" },
+  { "name": "About - Testimonials", "path": "/about/testimonials" },
+  { "name": "About - FAQs", "path": "/about/faqs" },
+  { "name": "Contact Us", "path": "/contact" },
+  { "name": "Terms of Service", "path": "/terms" },
+  { "name": "Privacy Policy", "path": "/privacy" }
+]
